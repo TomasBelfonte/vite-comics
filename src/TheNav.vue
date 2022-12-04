@@ -3,7 +3,7 @@
         <img class="logo" src="/dc-logo.png" alt="">
         <ul class="nav nav-pills justify-content-center flex-grow-1">
             <li class="nav-item" v-for="button in navButtons">
-                <a class="nav-link" href="#">{{button}}</a>
+                <a class="nav-link text-dark" href="#">{{button}}</a>
             </li>
             
         </ul>
