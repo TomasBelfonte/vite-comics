@@ -1,14 +1,14 @@
 <template>
     <div class="container justify-content-center">
         <div class="d-flex py-3 mt-5">
-        <img class="logo ms-3" src="/dc-logo.png" alt="">
-        <ul class="nav nav-pills justify-content-center flex-grow-1">
-            <li class="nav-item" v-for="button in navButtons">
-                <a class="nav-link text-dark" href="#">{{button}}</a>
-            </li>
+            <img class="logo ms-3" src="/dc-logo.png" alt="">
+            <ul class="nav nav-pills justify-content-center flex-grow-1">
+                <li class="nav-item" v-for="button in navButtons">
+                    <a class="nav-link text-dark" href="#">{{button}}</a>
+                </li>
+                
+            </ul>
             
-        </ul>
-        
         </div>
     </div>
     

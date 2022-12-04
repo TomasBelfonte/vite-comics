@@ -4,6 +4,7 @@
     <div class="tb-bg-main"><TheMain></TheMain></div>
     <div class="tb-bg-banner"><TheBanner></TheBanner></div>
     <div class="tb-bg-footer"><TheFooter></TheFooter></div>
+    <div class="tb-bg-navfooter"><TheNavFooter></TheNavFooter></div>
   </div>
   
 
@@ -14,9 +15,10 @@ import TheNav from './TheNav.vue';
 import TheMain from './TheMain.vue';
 import TheBanner from './TheBanner.vue';
 import TheFooter from './TheFooter.vue';
+import TheNavFooter from './TheNavFooter.vue';
 
 export default {
-  components: { TheNav, TheMain, TheBanner, TheFooter}
+  components: { TheNav, TheMain, TheBanner, TheFooter, TheNavFooter}
 };
 </script>
 
@@ -39,5 +41,9 @@ export default {
 
   .tb-bg-footer {
     background-image: url(./footer-bg.jpg);
+  }
+
+  .tb-bg-navfooter {
+    background-color: #333333;
   }
 </style>

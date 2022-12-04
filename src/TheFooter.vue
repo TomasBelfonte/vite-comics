@@ -1,6 +1,6 @@
 <template>
     <div class="container justify-content-center d-flex height">
-        <div class="d-flex py-3 mt-5 me-5 direction-column">
+        <div class="d-flex py-3 mt-5 me-5 direction-column col-sm-4">
             <ul class="">
                 <li>
                     <a class="text-light text-decoration-none fw-bolt" href="#"><strong>DC COMICS</strong></a>
