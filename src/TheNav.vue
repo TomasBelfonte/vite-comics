@@ -1,6 +1,7 @@
 <template>
-    <div class="d-flex">
-        <img class="logo" src="/dc-logo.png" alt="">
+    <div class="container">
+        <div class="d-flex py-3 mt-5">
+        <img class="logo ms-3" src="/dc-logo.png" alt="">
         <ul class="nav nav-pills justify-content-center flex-grow-1">
             <li class="nav-item" v-for="button in navButtons">
                 <a class="nav-link text-dark" href="#">{{button}}</a>
@@ -8,7 +9,9 @@
             
         </ul>
         
+        </div>
     </div>
+    
 </template>
 
 
@@ -39,9 +42,12 @@ export default {
 
 <style scoped>
     .logo {
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 50px;
     }
 
-    
+    .container {
+        width: 100vw !important;
+        
+    }
 </style>

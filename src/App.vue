@@ -1,15 +1,22 @@
 <template>
-  <TheNav></TheNav>
-  <h1>testo di prova</h1>
-  <h1>sono veramente felice quando le cose funzionano</h1>
+  <div class="dimension" >
+    <TheNav></TheNav>
+    <div class="tb-bg-main"><TheMain></TheMain></div>
+    <div class="tb-bg-banner"><TheBanner></TheBanner></div>
+    <h1>testo di prova</h1>
+    <h1>sono veramente felice quando le cose funzionano</h1>
+  </div>
+  
 
 </template>
 
 <script>
 import TheNav from './TheNav.vue';
+import TheMain from './TheMain.vue';
+import TheBanner from './TheBanner.vue';
 
 export default {
-  components: { TheNav }
+  components: { TheNav, TheMain, TheBanner}
 };
 </script>
 
@@ -18,10 +25,15 @@ export default {
   @use "./style/partials/utilities.scss";
   @use "./style/partials/variables.scss";
 
-  body {    
-    width: 1200px;
-    margin: 0 auto;
-    
-}
+  .dimension {
+    width: 100vw;
+  }
 
+  .tb-bg-main {
+        background-color: black;
+    }
+
+    .tb-bg-banner {
+        background-color: #0082F0;
+    }
 </style>
