@@ -3,8 +3,7 @@
     <TheNav></TheNav>
     <div class="tb-bg-main"><TheMain></TheMain></div>
     <div class="tb-bg-banner"><TheBanner></TheBanner></div>
-    <h1>testo di prova</h1>
-    <h1>sono veramente felice quando le cose funzionano</h1>
+    <div class="tb-bg-footer"><TheFooter></TheFooter></div>
   </div>
   
 
@@ -14,9 +13,10 @@
 import TheNav from './TheNav.vue';
 import TheMain from './TheMain.vue';
 import TheBanner from './TheBanner.vue';
+import TheFooter from './TheFooter.vue';
 
 export default {
-  components: { TheNav, TheMain, TheBanner}
+  components: { TheNav, TheMain, TheBanner, TheFooter}
 };
 </script>
 
@@ -33,7 +33,11 @@ export default {
         background-color: black;
     }
 
-    .tb-bg-banner {
-        background-color: #0082F0;
-    }
+  .tb-bg-banner {
+      background-color: #0082F0;
+  }
+
+  .tb-bg-footer {
+    background-image: url(./footer-bg.jpg);
+  }
 </style>

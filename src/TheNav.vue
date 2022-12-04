@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container justify-content-center">
         <div class="d-flex py-3 mt-5">
         <img class="logo ms-3" src="/dc-logo.png" alt="">
         <ul class="nav nav-pills justify-content-center flex-grow-1">
@@ -46,8 +46,4 @@ export default {
         height: 50px;
     }
 
-    .container {
-        width: 100vw !important;
-        
-    }
 </style>
