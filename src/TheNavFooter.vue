@@ -1,11 +1,11 @@
 <template>
-    <div class="container justify-content-center space-between">
-        <div class="d-flex py-3 ">
+    <div class="container justify-content-center">
+        <div class="d-flex py-3 justify-content-between">
 
             <div class="py-5 container d-flex gap-5 align-items-center" >
                 <button class="tb-button text-light">SIGN-UP NOW</button>
             </div>
-            <div class="py-5 container d-flex gap-5 align-items-center" >
+            <div class="py-5 container d-flex gap-5 align-items-center justify-content-end" >
                 
                 <div>
                     <img class="image ms-5" src="/" alt="">

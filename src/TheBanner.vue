@@ -1,5 +1,5 @@
 <template>
-    <div class="text-light py-5 container d-flex gap-5">
+    <div class="text-light py-5 container d-flex justify-content-between">
         <div>
             <img class="image ms-5" src="/buy-comics-digital-comics.png" alt="">
             DIGITAL COMICS

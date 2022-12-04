@@ -1,5 +1,5 @@
 <template>
-    <div class="container justify-content-center d-flex height">
+    <div class="container d-flex height">
         <div class="d-flex py-3 mt-5 me-5 direction-column col-sm-4">
             <ul class="">
                 <li>
@@ -38,8 +38,8 @@
             </ul>        
         </div>
 
-        <div class="flex-grow-1 ms-5">
-            <img  class="dc-size" src="/dc-logo-bg.png" alt="">
+        <div class="flex-grow-1">
+            <img  class="dc-size space" src="/dc-logo-bg.png" alt="">
         </div>
     </div>
     
@@ -96,7 +96,7 @@ export default {
 
 <style scoped>
     .dc-size{
-        width: 550px;
+        width: 500px;
         margin-top: -90px;
 
     }
@@ -108,5 +108,9 @@ export default {
 
     .whidth {
         max-width: 100px;
+    }
+
+    .space {
+        margin-left: 300px;
     }
 </style>
