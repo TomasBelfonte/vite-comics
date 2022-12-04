@@ -1,8 +1,12 @@
 <template>
     <div class="container justify-content-center space-between">
         <div class="d-flex py-3 ">
-            <div class="py-5 container d-flex gap-5 align-items-center space-between" >
+
+            <div class="py-5 container d-flex gap-5 align-items-center" >
                 <button class="tb-button text-light">SIGN-UP NOW</button>
+            </div>
+            <div class="py-5 container d-flex gap-5 align-items-center" >
+                
                 <div>
                     <img class="image ms-5" src="/" alt="">
                     <p class="text-primary">FOLLOW US</p>
@@ -28,7 +32,6 @@
                 
                 </div>
             </div>
-        
         </div>
     </div>
     
