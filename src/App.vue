@@ -1,6 +1,7 @@
 <template>
   <div class="dimension" >
     <TheNav></TheNav>
+    <div class="tb-bg">contenuto di prova</div>
     <div class="tb-bg-main"><TheMain></TheMain></div>
     <div class="tb-bg-banner"><TheBanner></TheBanner></div>
     <div class="tb-bg-footer"><TheFooter></TheFooter></div>
@@ -45,5 +46,11 @@ export default {
 
   .tb-bg-navfooter {
     background-color: #333333;
+  }
+
+  .tb-bg {
+    background-image: url(./jumbotron.ipg);
+    min-height: 300px;
+    // overflow: hidden;
   }
 </style>
