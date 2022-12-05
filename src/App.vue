@@ -1,11 +1,11 @@
 <template>
-  <div class="dimension" >
+  <div>
     <TheNav></TheNav>
-    <div class="tb-bg">contenuto di prova</div>
-    <div class="tb-bg-main"><TheMain></TheMain></div>
-    <div class="tb-bg-banner"><TheBanner></TheBanner></div>
-    <div class="tb-bg-footer"><TheFooter></TheFooter></div>
-    <div class="tb-bg-navfooter"><TheNavFooter></TheNavFooter></div>
+    <TheSubNav></TheSubNav>
+    <TheMain></TheMain>
+    <TheBanner></TheBanner>
+    <TheFooter></TheFooter>
+    <TheNavFooter></TheNavFooter>
   </div>
   
 
@@ -17,9 +17,10 @@ import TheMain from './TheMain.vue';
 import TheBanner from './TheBanner.vue';
 import TheFooter from './TheFooter.vue';
 import TheNavFooter from './TheNavFooter.vue';
+import TheSubNav from './TheSubNav.vue'
 
 export default {
-  components: { TheNav, TheMain, TheBanner, TheFooter, TheNavFooter}
+  components: { TheNav, TheMain, TheBanner, TheFooter, TheNavFooter, TheSubNav}
 };
 </script>
 
@@ -28,29 +29,4 @@ export default {
   @use "./style/partials/utilities.scss";
   @use "./style/partials/variables.scss";
 
-  .dimension {
-    width: 100vw;
-  }
-
-  .tb-bg-main {
-        background-color: black;
-    }
-
-  .tb-bg-banner {
-      background-color: #0082F0;
-  }
-
-  .tb-bg-footer {
-    background-image: url(./footer-bg.jpg);
-  }
-
-  .tb-bg-navfooter {
-    background-color: #333333;
-  }
-
-  .tb-bg {
-    background-image: url(./jumbotron.ipg);
-    min-height: 300px;
-    // overflow: hidden;
-  }
 </style>

@@ -1,47 +1,52 @@
 <template>
-    <div class="container d-flex height">
-        <div class="d-flex py-3 mt-5 me-5 direction-column col-sm-4">
-            <ul class="">
-                <li>
-                    <a class="text-light text-decoration-none fw-bolt" href="#"><strong>DC COMICS</strong></a>
-                </li>
-                <li class="" v-for="first in dcComics">
-                    <a class="text-secondary text-decoration-none" href="#">{{first}}</a>
-                </li>            
-            </ul>
+    <div class="tb-bg-footer" >
 
-            <ul class="">
-                <li>
-                    <a class="text-light text-decoration-none fw-bolt" href="#"><strong>SHOP</strong></a>
-                </li>
-                <li class="" v-for="second in shop">
-                    <a class="text-secondary text-decoration-none" href="#">{{second}}</a>
-                </li>            
-            </ul>
+        <div class="container d-flex height">
+            <div class="d-flex py-3 mt-5 me-5 direction-column col-sm-4">
+                <ul class="">
+                    <li>
+                        <a class="text-light text-decoration-none fw-bolt" href="#"><strong>DC COMICS</strong></a>
+                    </li>
+                    <li class="" v-for="first in dcComics">
+                        <a class="text-secondary text-decoration-none" href="#">{{first}}</a>
+                    </li>            
+                </ul>
 
-            <ul class="">
-                <li>
-                    <a class="text-light text-decoration-none fw-bolt" href="#"><strong>DC</strong></a>
-                </li>
-                <li class="" v-for="tirth in dc">
-                    <a class="text-secondary text-decoration-none" href="#">{{tirth}}</a>
-                </li>            
-            </ul>
+                <ul class="">
+                    <li>
+                        <a class="text-light text-decoration-none fw-bolt" href="#"><strong>SHOP</strong></a>
+                    </li>
+                    <li class="" v-for="second in shop">
+                        <a class="text-secondary text-decoration-none" href="#">{{second}}</a>
+                    </li>            
+                </ul>
 
-            <ul class="">
-                <li>
-                    <a class="text-light text-decoration-none fw-bolt" href="#"><strong>SITES</strong></a>
-                </li>
-                <li class="" v-for="fourth in sites">
-                    <a class="text-secondary text-decoration-none" href="#">{{fourth}}</a>
-                </li>            
-            </ul>        
-        </div>
+                <ul class="">
+                    <li>
+                        <a class="text-light text-decoration-none fw-bolt" href="#"><strong>DC</strong></a>
+                    </li>
+                    <li class="" v-for="tirth in dc">
+                        <a class="text-secondary text-decoration-none" href="#">{{tirth}}</a>
+                    </li>            
+                </ul>
 
-        <div class="flex-grow-1">
-            <img  class="dc-size space" src="/dc-logo-bg.png" alt="">
-        </div>
+                <ul class="">
+                    <li>
+                        <a class="text-light text-decoration-none fw-bolt" href="#"><strong>SITES</strong></a>
+                    </li>
+                    <li class="" v-for="fourth in sites">
+                        <a class="text-secondary text-decoration-none" href="#">{{fourth}}</a>
+                    </li>            
+                </ul>        
+            </div>
+
+            <div class="flex-grow-1">
+                <img  class="dc-size space" src="/dc-logo-bg.png" alt="">
+            </div>
+        </div>        
+
     </div>
+
     
 </template>
 
@@ -112,5 +117,9 @@ export default {
 
     .space {
         margin-left: 300px;
+    }
+
+    .tb-bg-footer {
+    background-image: url(./footer-bg.jpg);
     }
 </style>
